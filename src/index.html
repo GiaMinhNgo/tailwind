@@ -21,13 +21,14 @@
                 <ul id="menu"
                     class="invisible fixed top-0 right-0 h-screen flex flex-col justify-start items-center pt-20 px-20 bg-[#ccc] lg:bg-transparent lg:h-auto lg:flex-row lg:justify-between lg:static lg:gap-x-[46px] lg:font-semibold lg:p-0 lg:visible">
                     <li class="m-5 md:m-0">
-                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Home</a>
+                        <a href="index.html" class="hover:text-[#655ced] transition duration-150 ease-in">Home</a>
                     </li>
                     <li class="m-5 md:m-0">
-                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">About Us</a>
+                        <a href="./about.html" class="hover:text-[#655ced] transition duration-150 ease-in">About Us</a>
                     </li>
                     <li class="m-5 md:m-0">
-                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Services</a>
+                        <a href="./services.html"
+                            class="hover:text-[#655ced] transition duration-150 ease-in">Services</a>
                     </li>
                     <li class="m-5 md:m-0">
                         <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Jobs</a>
@@ -514,16 +515,17 @@
                             service you can
                             join us</p>
                     </div>
-                    <div class="mt-14 flex flex-col items-center md:flex-row md:mt-8">
-                        <div
-                            class="flex shadow-lg shadow-[#ccc] items-center bg-white h-[50px] w-full md:h-[70px] md:w-[600px]">
+                    <form action="" id="form-1" class="w-full mt-14 flex flex-col items-center md:flex-row md:mt-8">
+                        <div class="flex shadow-lg shadow-[#ccc] items-center bg-white h-[50px] w-full md:h-[70px]">
                             <i class="fa-solid fa-envelope text-[#fa4d11] mx-3"></i>
-                            <input type="text" placeholder="Enter email address" class="outline-none flex-1">
+                            <input type="email" placeholder="Enter email address"
+                                pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" required
+                                class="outline-none flex-1">
                         </div>
-                        <button
-                            class="px-8 py-6 bg-[#fa4d11] text-white rounded-lg text-center mt-12 md:ml-4 md:mt-0 hover:opacity-60 hover:transition-colors ">Subscribe
+                        <button type="submit"
+                            class="px-8 py-4 md:py-2 bg-[#fa4d11] text-white rounded-lg text-center mt-12 md:ml-4 md:mt-0 hover:opacity-60 hover:transition-colors ">Subscribe
                             now</button>
-                    </div>
+                    </form>
                 </div>
                 <div class=" js-scroll-left">
                     <img src="./img/hinh1.png" alt="">

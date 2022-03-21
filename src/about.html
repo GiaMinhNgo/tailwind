@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container mx-auto px-4 py-4 md:py-7">
+            <nav class="flex justify-between items-center mb-[20px] md:mb-[117px]">
+                <div>
+                    <a href="index.html" class="font-extrabold text-2xl text-[#655ced] md:text-3xl">Findjob!</a>
+                </div>
+                <ul id="menu"
+                    class="invisible fixed top-0 right-0 h-screen flex flex-col justify-start items-center pt-20 px-20 bg-[#ccc] lg:bg-transparent lg:h-auto lg:flex-row lg:justify-between lg:static lg:gap-x-[46px] lg:font-semibold lg:p-0 lg:visible">
+                    <li class="m-5 md:m-0">
+                        <a href="index.html" class="hover:text-[#655ced] transition duration-150 ease-in">Home</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">About Us</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Services</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Jobs</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">How it work</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Contact</a>
+                    </li>
+                </ul>
+                <div class="hidden lg:visible lg:flex gap-x-[46px]">
+                    <button class="text-white hover:opacity-80 hover:transition-colors">Log in</button>
+                    <button
+                        class="bg-white text-[#4c3aee] p-5 px-9 rounded-full font-semibold hover:opacity-80 hover:transition-colors">Get
+                        Started</button>
+                </div>
+                <div id="menu-btn" class="z-50 cursor-pointer lg:invisible text-[#655ced] text-xl md:text-white">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container mx-auto md:grid md:grid-cols-2">
+            <div class="px-4 md:px-0 flex flex-col justify-center items-center md:block animation">
+                <h1
+                    class="text-[54px] text-center font-semibold max-w-sm lg:text-[64px] mb-7 md:font-bold md:max-w-[470px] md:text-left">
+                    Find
+                    your dream
+                    jobs with us
+                    easily
+                </h1>
+                <p class="mb-7 max-w-[464px] mx-14 text-center md:mx-0 md:mb-32 text-[#838383]">A better way to find and
+                    hire
+                    professional
+                    candidates
+                    for your
+                    job. Don't
+                    waste your
+                    time anywhere
+                    else and stop wearing your time.</p>
+                <div
+                    class="bg-[#655ced] h-14 flex items-center w-[375px] phone:w-[423px] text-white px-4 rounded-full md:w-[560px] md:h-[55px]">
+                    <i class="fa-solid fa-magnifying-glass mr-2 phone:pr-3 md:pr-5"></i>
+                    <input type="text"
+                        class="bg-transparent outline-0 max-w-[130px] placeholder:text-sm placeholder:text-white md:placeholder:text-lg md:max-w-[200px]"
+                        placeholder="Job title or Keyword">
+                    <span>|</span>
+                    <i class="fa-solid fa-location-dot px-1 md:px-3"></i>
+                    <input type="text"
+                        class="bg-transparent outline-0 max-w-[100px] phone:max-w-[110px] placeholder:text-sm placeholder:text-white md:placeholder:text-lg md:max-w-[200px]"
+                        placeholder="City or Zip code">
+                    <button
+                        class="bg-white text-[#655ced] p-3 px-4 md:px-6 rounded-full hover:bg-[#e9e8e8] hover:transition-colors ">Search</button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-10 md:mt-0 md:justify-end md:items-start">
+                <div>
+                    <div
+                        class="bg-gradient-to-b from-[#6b6bf1] via-[#80b1f4] to-[#d4a6f1] absolute right-0 h-[387px] md:top-0 md:h-[900px] w-[37%] -z-40">
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1646185508554-44f57e273679?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80"
+                        alt=""
+                        class="rounded-[50%] w-[300px] h-[300px] z-20 md:w-[350px] md:h-[350px] lg:w-[500px] lg:h-[500px] border-[40px] border-opacity-50 mt-10  animation">
+                    <!-- <div class="w-[70px] h-[70px] bg-slate-700 rounded-full align-middle table-cell text-center">
+                        <i class="fa-brands fa-figma"></i>
+                    </div>
+                    <i class="fa-brands fa-slack"></i>
+                    <i class="fa-brands fa-google"></i> -->
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
