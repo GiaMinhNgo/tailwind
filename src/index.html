@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container mx-auto px-4 py-4 md:py-7">
+            <nav class="flex justify-between items-center mb-[20px] md:mb-[117px]">
+                <div>
+                    <a href="index.html" class="font-extrabold text-2xl text-[#655ced] md:text-3xl">Findjob!</a>
+                </div>
+                <ul id="menu"
+                    class="invisible fixed top-0 right-0 h-screen flex flex-col justify-start items-center pt-20 px-20 bg-[#ccc] lg:bg-transparent lg:h-auto lg:flex-row lg:justify-between lg:static lg:gap-x-[46px] lg:font-semibold lg:p-0 lg:visible">
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Home</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">About Us</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Services</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Jobs</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">How it work</a>
+                    </li>
+                    <li class="m-5 md:m-0">
+                        <a href="#" class="hover:text-[#655ced] transition duration-150 ease-in">Contact</a>
+                    </li>
+                </ul>
+                <div class="hidden lg:visible lg:flex gap-x-[46px]">
+                    <button class="text-white hover:opacity-80 hover:transition-colors">Log in</button>
+                    <button
+                        class="bg-white text-[#4c3aee] p-5 px-9 rounded-full font-semibold hover:opacity-80 hover:transition-colors">Get
+                        Started</button>
+                </div>
+                <div id="menu-btn" class="z-50 cursor-pointer lg:invisible text-[#655ced] text-xl md:text-white">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container mx-auto md:grid md:grid-cols-2">
+            <div class="px-4 md:px-0 flex flex-col justify-center items-center md:block animation">
+                <h1
+                    class="text-[54px] text-center font-semibold max-w-sm lg:text-[64px] mb-7 md:font-bold md:max-w-[470px] md:text-left">
+                    Find
+                    your dream
+                    jobs with us
+                    easily
+                </h1>
+                <p class="mb-7 max-w-[464px] mx-14 text-center md:mx-0 md:mb-32 text-[#838383]">A better way to find and
+                    hire
+                    professional
+                    candidates
+                    for your
+                    job. Don't
+                    waste your
+                    time anywhere
+                    else and stop wearing your time.</p>
+                <div
+                    class="bg-[#655ced] h-14 flex items-center w-[375px] phone:w-[423px] text-white px-4 rounded-full md:w-[560px] md:h-[55px]">
+                    <i class="fa-solid fa-magnifying-glass mr-2 phone:pr-3 md:pr-5"></i>
+                    <input type="text"
+                        class="bg-transparent outline-0 max-w-[130px] placeholder:text-sm placeholder:text-white md:placeholder:text-lg md:max-w-[200px]"
+                        placeholder="Job title or Keyword">
+                    <span>|</span>
+                    <i class="fa-solid fa-location-dot px-1 md:px-3"></i>
+                    <input type="text"
+                        class="bg-transparent outline-0 max-w-[100px] phone:max-w-[110px] placeholder:text-sm placeholder:text-white md:placeholder:text-lg md:max-w-[200px]"
+                        placeholder="City or Zip code">
+                    <button
+                        class="bg-white text-[#655ced] p-3 px-4 md:px-6 rounded-full hover:bg-[#e9e8e8] hover:transition-colors ">Search</button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-10 md:mt-0 md:justify-end md:items-start">
+                <div>
+                    <div
+                        class="bg-gradient-to-b from-[#6b6bf1] via-[#80b1f4] to-[#d4a6f1] absolute right-0 h-[387px] md:top-0 md:h-[900px] w-[37%] -z-40">
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1646185508554-44f57e273679?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80"
+                        alt=""
+                        class="rounded-[50%] w-[300px] h-[300px] z-20 md:w-[350px] md:h-[350px] lg:w-[500px] lg:h-[500px] border-[40px] border-opacity-50 mt-10  animation">
+                    <!-- <div class="w-[70px] h-[70px] bg-slate-700 rounded-full align-middle table-cell text-center">
+                        <i class="fa-brands fa-figma"></i>
+                    </div>
+                    <i class="fa-brands fa-slack"></i>
+                    <i class="fa-brands fa-google"></i> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto flex my-20 md:justify-between md:mt-[180px] px-4 md:px-0 overflow-hidden">
+            <div class="flex items-center mr-10 text-[#d1d1d1] text-3xl mt0 md:text-4xl">
+                <i class="fa-brands fa-airbnb"></i>
+                <p class="ml-2">Airbnb</p>
+            </div>
+            <div class="flex items-center mr-10 text-[#d1d1d1] text-3xl mt0 md:text-4xl">
+                <i class="fa-brands fa-microsoft"></i>
+                <p class="ml-2">Microsoft</p>
+            </div>
+            <div class="flex items-center mr-10 text-[#d1d1d1] text-3xl mt0 md:text-4xl">
+                <i class="fa-brands fa-google"></i>
+                <p class="ml-2">Google</p>
+            </div>
+            <div class="flex items-center mr-10 text-[#d1d1d1] text-3xl mt0 md:text-4xl">
+                <i class="fa-brands fa-figma"></i>
+                <p class="ml-2">Figma</p>
+            </div>
+            <div class="flex items-center mr-10 text-[#d1d1d1] text-3xl mt0 md:text-4xl">
+                <i class="fa-brands fa-slack"></i>
+                <p class="ml-2">Slack</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 md:mt-32">
+            <p class="text-center text-[#655ced] font-semibold text-base">WHO WE ARE</p>
+            <h1 class="text-center font-bold text-3xl mt-3 md:text-5xl">About Us</h1>
+            <div class="md:grid md:grid-cols-3 gap-x-4">
+                <div class="text-center flex flex-col items-center mt-16 md:mt-24">
+                    <div class="w-[120px] h-[120px] bg-[#655ced] rounded-full text-3xl text-white">
+                        <i class="fa-solid fa-pen-nib relative top-[50%] translate-y-[-20px]"></i>
+                    </div>
+                    <h2 class="font-semibold mb-4 mt-8">Our Values</h2>
+                    <p class="text-[#939393] max-w-[330px]">Quality and Timely services for the substainable solution
+                        outmated and
+                        specitfic method</p>
+                </div>
+                <div class="text-center flex flex-col items-center mt-16 md:mt-44">
+                    <div class="w-[120px] h-[120px] bg-[#655ced] rounded-full text-3xl text-white">
+                        <i class="fa-solid fa-chart-bar relative top-[50%] translate-y-[-20px]"></i>
+                    </div>
+                    <h2 class="font-semibold mb-4 mt-8">Our Mission</h2>
+                    <p class="text-[#939393] max-w-[330px]">Quality and Timely services for the substainable solution
+                        outmated and
+                        specitfic method</p>
+                </div>
+                <div class="text-center flex flex-col items-center mt-16 md:mt-24">
+                    <div class="w-[120px] h-[120px] bg-[#655ced] rounded-full text-3xl text-white">
+                        <i class="fa-brands fa-connectdevelop relative top-[50%] translate-y-[-20px]"></i>
+                    </div>
+                    <h2 class="font-semibold mb-4 mt-8">Our Values</h2>
+                    <p class="text-[#939393] max-w-[330px]">Quality and Timely services for the substainable solution
+                        outmated and
+                        specitfic method</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class=" container mx-auto px-4 mt-32">
+            <div class="flex flex-col items-center">
+                <p class="text-center text-[#655ced] font-semibold text-base">WHAT WE OFFER</p>
+                <h1 class="text-center font-bold text-3xl my-3 md:text-5xl">Service we provide</h1>
+                <p class="text-center max-w-[600px] text-[#939393]">To know more about us and our services you can
+                    join
+                    us.
+                    And we will
+                    ensure you will get a proper fitness
+                    facility</p>
+            </div>
+            <div class="md:grid md:grid-cols-3 md:gap-32">
+                <div
+                    class="flex flex-col justify-center items-center mt-32 hover:bg-[#655ced] hover:rounded-xl h-[350px] cursor-pointer group">
+                    <div class="w-[120px] h-[120px] bg-[#fed5d9] rounded-full flex">
+                        <img src="./icons/advertise.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Advertise jobs on
+                        video</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">There are many variations
+                        of the passages Lorem Ipsum available, but the major have suffered alteration</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center mt-32 hover:bg-[#655ced] hover:rounded-xl h-[350px] cursor-pointer group">
+                    <div class="w-[120px] h-[120px] bg-white rounded-full flex">
+                        <img src="./icons/video.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Create your video
+                        resume</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">There are many variations
+                        of the passages Lorem Ipsum available, but the major have suffered alteration</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center mt-32 hover:bg-[#655ced] hover:rounded-xl h-[350px] cursor-pointer group">
+                    <div class="w-[120px] h-[120px] bg-[#ddf0fe] rounded-full flex">
+                        <img src="./icons/candidates.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Find you best
+                        candidates</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">There are many variations
+                        of the passages Lorem Ipsum available, but the major have suffered alteration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 mt-32">
+            <div class="flex flex-col items-center">
+                <p class="text-center text-[#655ced] font-semibold text-base">TRENDING CATEGORIES</p>
+                <h1 class="text-center font-bold text-3xl my-3 md:text-5xl">Trending Categories</h1>
+                <p class="text-center w-[310px] md:w-full text-[#939393]">NOW! Get your dream job according to your
+                    skill
+                    across the globe</p>
+            </div>
+            <div class="grid grid-cols-2 gap-x-3 md:grid-cols-4 md:gap-x-32">
+                <div
+                    class="flex flex-col justify-center items-center mt-32 hover:bg-[#655ced] hover:rounded-xl h-[250px] group cursor-pointer">
+                    <div class="w-[120px] h-[120px] bg-white rounded-full flex">
+                        <img src="./icons/Construction.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white">Construction</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">Available job: 5</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center cursor-pointer mt-32 hover:bg-[#655ced] hover:rounded-xl h-[250px] group">
+                    <div class="w-[120px] h-[120px] bg-[#edffe5] rounded-full flex">
+                        <img src="./icons/Automotive.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Automotive Jobs
+                    </h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">Available job: 10</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center cursor-pointer mt-10 md:mt-32 hover:bg-[#655ced] hover:rounded-xl h-[250px] group">
+                    <div class="w-[120px] h-[120px] bg-[#e5f8ff] rounded-full flex">
+                        <img src="./icons/sale marketing.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Sale & Marketing
+                    </h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">Available job: 3</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center cursor-pointer mt-10 md:mt-32 hover:bg-[#655ced] hover:rounded-xl h-[250px] group">
+                    <div class="w-[120px] h-[120px] bg-[#edeef0] rounded-full flex">
+                        <img src="./icons/Accounting.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white">Accounting</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">AvailaXble job: 6</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center cursor-pointer mt-10 hover:bg-[#655ced] hover:rounded-xl h-[250px] group">
+                    <div class="w-[120px] h-[120px] bg-[#fff6e5] rounded-full flex">
+                        <img src="./icons/Education.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Education Training
+                    </h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">Available job: 1</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center cursor-pointer mt-10 hover:bg-[#655ced] hover:rounded-xl h-[250px] group">
+                    <div class="w-[120px] h-[120px] bg-[#e6f9ff] rounded-full flex">
+                        <img src="./icons/Restaurant.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Restaurant
+                        Services</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">Available job: 7</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center cursor-pointer mt-10 hover:bg-[#655ced] hover:rounded-xl h-[250px] group">
+                    <div class="w-[120px] h-[120px] bg-[#ffe4e9] rounded-full flex">
+                        <img src="./icons/Health.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white md:text-center">Health Care</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">Available job: 2</p>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center cursor-pointer mt-10 hover:bg-[#655ced] hover:rounded-xl h-[250px] group">
+                    <div class="w-[120px] h-[120px] bg-[#e5fdff] rounded-full flex">
+                        <img src="./icons/telephone.png" alt="" class="w-[50%] m-auto">
+                    </div>
+                    <h1 class="font-semibold mb-4 mt-8 text-xl group-hover:text-white">Telecommunications</h1>
+                    <p class="text-[#939393] max-w-[330px] text-center group-hover:text-white">Available job: 9</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 mt-32">
+            <p class="text-center text-[#655ced] font-semibold text-base">HOW TO DO</p>
+            <h1 class="text-center font-bold text-3xl my-3 md:text-5xl">How make a video resume</h1>
+            <div class="md:grid md:grid-cols-2 md:gap-4 my-32 md:items-center">
+                <div class="relative flex js-scroll-left">
+                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                        alt="" class="rounded-3xl w-[80%] mx-auto md:h-[50%] md:object-cover">
+                    <button
+                        class="bg-[#655ced] px-7 py-4 hover:opacity-90 hover:transition-colors rounded-xl text-white absolute bottom-[-50px] md:bottom-[-23px] md:left-0">
+                        <i class="fa-solid fa-file-arrow-up mr-2"></i>
+                        Upload CV
+                    </button>
+                    <button
+                        class="bg-white px-7 py-4 rounded-xl absolute bottom-[-23px] right-0 shadow-lg shadow-[#ccc] hover:opacity-80 hover:transition-colors">
+                        <i class="fa-solid fa-video mr-2 text-[#655ced]"></i>
+                        Video Resume
+                    </button>
+                    <button
+                        class="bg-white px-7 py-4 rounded-xl absolute top-[-20px] left-0 shadow-lg shadow-[#ccc] hover:opacity-80 hover:transition-colors">
+                        <i class="fa-solid fa-briefcase block mb-4 text-[#655ced]"></i>
+                        Get Job
+                    </button>
+                </div>
+                <div class="js-scroll-right">
+                    <h1 class="mt-32 md:mt-0 text-2xl">Make your own Video Resume in 3 easy steps</h1>
+                    <div>
+                        <p class="my-6 text-[#655ced] font-semibold text-lg">Step 1</p>
+                        <h2 class="mb-4 font-bold text-xl">Pick a video resume template</h2>
+                        <p class="text-[#939393] ">Upload your video, just drag and drop. You can even include images of
+                            your typed resume to refer to, to your video.</p>
+                    </div>
+                    <div>
+                        <p class="my-6 text-[#655ced] font-semibold text-lg">Step 2</p>
+                        <h2 class="mb-4 font-bold text-xl">Personalize the template</h2>
+                        <p class="text-[#939393] ">Your can use VEED's suite of online editing tools to ensure your
+                            resume stands head and shoulders above the rest best.</p>
+                    </div>
+                    <div>
+                        <p class="my-6 text-[#655ced] font-semibold text-lg">Step 1</p>
+                        <h2 class="mb-4 font-bold text-xl">Share your video resume</h2>
+                        <p class="text-[#939393] ">All done? Hit'Download; and your video resume will render in
+                            secounds. You're ready to dazzle future employers with your new video resume.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 mt-32">
+            <div class="flex flex-col items-center">
+                <p class="text-center text-[#655ced] font-semibold text-base">CLIENTS SAY</p>
+                <h1 class="text-center font-bold text-3xl my-3 md:text-5xl">Clients Say about us</h1>
+                <p class="text-center max-w-[310px] text-[#939393]">Let's know what our clients says about us.</p>
+            </div>
+            <div class="text-right mt-8">
+                <i
+                    class="fa-solid fa-arrow-left-long text-2xl pr-[6px] select-none text-[#939393] hover:text-[#655ced] cursor-pointer left-btn"></i>
+                <i
+                    class="fa-solid fa-arrow-right-long text-2xl pl-[6px] select-none text-[#939393] hover:text-[#655ced] cursor-pointer right-btn"></i>
+            </div>
+            <div class="mt-14 overflow-hidden whitespace-nowrap wrapper">
+                <div class="wrapper-main relative transition-all">
+                    <div class="md:w-[400px] w-full mr-14 shadow-lg shadow-[#ccc] p-10 md:p-6 inline-block quotes">
+                        <i class="fa-solid fa-quote-left text-[#939393] text-2xl"></i>
+                        <p class="whitespace-normal">It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining
+                            essentially best for this unchanged.</p>
+                        <i class="fa-solid fa-quote-right text-[#939393] text-2xl block text-right"></i>
+                        <div class="flex">
+                            <div class="mr-4">
+                                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="" class="w-[50px] h-[50px] rounded-full object-cover">
+                            </div>
+                            <div>
+                                <h1 class="font-semibold">Shawan Mendes</h1>
+                                <p class="text-sm text-[#939393]">United State</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[400px] w-full mr-14 shadow-lg shadow-[#ccc] p-10 md:p-6 inline-block quotes">
+                        <i class="fa-solid fa-quote-left text-[#939393] text-2xl"></i>
+                        <p class="whitespace-normal">It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining
+                            essentially best for this unchanged.</p>
+                        <i class="fa-solid fa-quote-right text-[#939393] text-2xl block text-right"></i>
+                        <div class="flex">
+                            <div class="mr-4">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="" class="w-[50px] h-[50px] rounded-full object-cover">
+                            </div>
+                            <div>
+                                <h1 class="font-semibold">Zayn Manik</h1>
+                                <p class="text-sm text-[#939393]">United State</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[400px] w-full mr-14 shadow-lg shadow-[#ccc] p-10 md:p-6 inline-block quotes">
+                        <i class="fa-solid fa-quote-left text-[#939393] text-2xl"></i>
+                        <p class="whitespace-normal">It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining
+                            essentially best for this unchanged.</p>
+                        <i class="fa-solid fa-quote-right text-[#939393] text-2xl block text-right"></i>
+                        <div class="flex">
+                            <div class="mr-4">
+                                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="" class="w-[50px] h-[50px] rounded-full object-cover">
+                            </div>
+                            <div>
+                                <h1 class="font-semibold">Adam Saleh</h1>
+                                <p class="text-sm text-[#939393]">United State</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[400px] w-full mr-14 shadow-lg shadow-[#ccc] p-10 md:p-6 inline-block quotes">
+                        <i class="fa-solid fa-quote-left text-[#939393] text-2xl"></i>
+                        <p class="whitespace-normal">It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining
+                            essentially best for this unchanged.</p>
+                        <i class="fa-solid fa-quote-right text-[#939393] text-2xl block text-right"></i>
+                        <div class="flex">
+                            <div class="mr-4">
+                                <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                                    alt="" class="w-[50px] h-[50px] rounded-full object-cover">
+                            </div>
+                            <div>
+                                <h1 class="font-semibold">Shawan Mendes</h1>
+                                <p class="text-sm text-[#939393]">United State</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[400px] w-full mr-14 shadow-lg shadow-[#ccc] p-10 md:p-6 inline-block quotes">
+                        <i class="fa-solid fa-quote-left text-[#939393] text-2xl"></i>
+                        <p class="whitespace-normal">It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining
+                            essentially best for this unchanged.</p>
+                        <i class="fa-solid fa-quote-right text-[#939393] text-2xl block text-right"></i>
+                        <div class="flex">
+                            <div class="mr-4">
+                                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="" class="w-[50px] h-[50px] rounded-full object-cover">
+                            </div>
+                            <div>
+                                <h1 class="font-semibold">Shawan Mendes</h1>
+                                <p class="text-sm text-[#939393]">United State</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[400px] w-full mr-14 shadow-lg shadow-[#ccc] p-10 md:p-6 inline-block quotes">
+                        <i class="fa-solid fa-quote-left text-[#939393] text-2xl"></i>
+                        <p class="whitespace-normal">It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining
+                            essentially best for this unchanged.</p>
+                        <i class="fa-solid fa-quote-right text-[#939393] text-2xl block text-right"></i>
+                        <div class="flex">
+                            <div class="mr-4">
+                                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="" class="w-[50px] h-[50px] rounded-full object-cover">
+                            </div>
+                            <div>
+                                <h1 class="font-semibold">Shawan Mendes</h1>
+                                <p class="text-sm text-[#939393]">United State</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[400px] w-full mr-14 shadow-lg shadow-[#ccc] p-10 md:p-6 inline-block quotes">
+                        <i class="fa-solid fa-quote-left text-[#939393] text-2xl"></i>
+                        <p class="whitespace-normal">It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining
+                            essentially best for this unchanged.</p>
+                        <i class="fa-solid fa-quote-right text-[#939393] text-2xl block text-right"></i>
+                        <div class="flex">
+                            <div class="mr-4">
+                                <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="" class="w-[50px] h-[50px] rounded-full object-cover">
+                            </div>
+                            <div>
+                                <h1 class="font-semibold">Shawan Mendes</h1>
+                                <p class="text-sm text-[#939393]">United State</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text-center mt-10 scrolls select-none">
+                    <div class="w-10 h-1 bg-[#655ced] rounded-full inline-block cursor-pointer scroll" data-index="0">
+                    </div>
+                    <div class="w-10 h-1 bg-[#e4e7f0] rounded-full inline-block cursor-pointer scroll" data-index="1">
+                    </div>
+                    <div class="w-10 h-1 bg-[#e4e7f0] rounded-full inline-block cursor-pointer scroll" data-index="2">
+                    </div>
+                    <div class="w-10 h-1 bg-[#e4e7f0] rounded-full inline-block cursor-pointer scroll" data-index="3">
+                    </div>
+                    <div class="w-10 h-1 bg-[#e4e7f0] rounded-full inline-block cursor-pointer scroll" data-index="5">
+                    </div>
+                    <div class="w-10 h-1 bg-[#e4e7f0] rounded-full inline-block cursor-pointer scroll" data-index="6">
+                    </div>
+                    <div class="w-10 h-1 bg-[#e4e7f0] rounded-full inline-block cursor-pointer scroll" data-index="7">
+                    </div>
+                    <div class="w-10 h-1 bg-[#e4e7f0] rounded-full inline-block cursor-pointer scroll" data-index="8">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 mt-32 bg-[#f5fafe] rounded-2xl">
+            <div class="md:flex md:justify-center md:items-center md:flex-row-reverse gap-x-32 my-6">
+                <div class="flex-1 md:text-left sm:max-w-[300px] lg:max-w-none js-scroll-right">
+                    <div class="flex flex-col items-center md:text-left">
+                        <h1 class="text-3xl font-bold mt-8 mb-3 md:text-5xl md:w-full">Get in Touch With Us
+                        </h1>
+                        <p class="text-[#939393] w-[320px] md:w-full text-center md:text-left">To know more about us
+                            and
+                            our
+                            service you can
+                            join us</p>
+                    </div>
+                    <div class="mt-14 flex flex-col items-center md:flex-row md:mt-8">
+                        <div
+                            class="flex shadow-lg shadow-[#ccc] items-center bg-white h-[50px] w-full md:h-[70px] md:w-[600px]">
+                            <i class="fa-solid fa-envelope text-[#fa4d11] mx-3"></i>
+                            <input type="text" placeholder="Enter email address" class="outline-none flex-1">
+                        </div>
+                        <button
+                            class="px-8 py-6 bg-[#fa4d11] text-white rounded-lg text-center mt-12 md:ml-4 md:mt-0 hover:opacity-60 hover:transition-colors ">Subscribe
+                            now</button>
+                    </div>
+                </div>
+                <div class=" js-scroll-left">
+                    <img src="./img/hinh1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 mt-32">
+            <div class="flex flex-col items-center">
+                <p class="text-center text-[#655ced] font-semibold text-base">OUR BEST CANDIDATE</p>
+                <h1 class="text-center font-bold text-3xl my-3 md:text-5xl">Our Best Candidate</h1>
+                <p class="text-center max-w-[600px] text-[#939393]">Creative people fueled aith passion</p>
+            </div>
+            <div class="lg:relative md:mt-20">
+                <div class="inline-block xl:absolute xl:top-[50%] xl:translate-y-[-50%]">
+                    <button
+                        class="w-[50px] h-[50px] rounded-full border-2 border-[#655ced] flex mt-9 hover:bg-[#655ced] group prev-btn">
+                        <i class="fa-solid fa-angle-left m-auto text-[#655ced] group-hover:text-white"></i>
+                    </button>
+                </div>
+                <div class="inline-block float-right xl:right-0 xl:absolute xl:top-[50%] xl:translate-y-[-50%]">
+                    <button
+                        class="w-[50px] h-[50px] rounded-full border-2 border-[#655ced] flex mt-9 hover:bg-[#655ced] group next-btn">
+                        <i class="fa-solid fa-angle-right m-auto text-[#655ced] group-hover:text-white"></i>
+                    </button>
+                </div>
+                <div class="wrapperr">
+                    <!-- Slider main container -->
+                    <div class="swiper ">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper select-none">
+                            <!-- Slides -->
+                            <div class="swiper-slide cursor-pointer">
+                                <div class="content-wrapper">
+                                    <div class="content">
+                                        <div
+                                            class="w-[130px] h-[150px] md:w-[280px] md:h-[300px] rounded-lg overflow-hidden border-2 border-[#655ced] flex justify-center items-center">
+                                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                                alt="" class="w-[100px] h-[130px] md:w-[250px] md:h-[280px] rounded-lg">
+                                        </div>
+                                        <div class="mt-4">
+                                            <h1 class="font-bold text-lg">Kathleen Moreno</h1>
+                                            <p class="text-[#7a7a7a]">Product Designer</p>
+                                            <p class="text-[#7a7a7a]">$1200 /Monthly</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cursor-pointer">
+                                <div class="content-wrapper">
+                                    <div class="content">
+                                        <div
+                                            class="w-[130px] h-[150px] md:w-[280px] md:h-[300px] rounded-lg overflow-hidden border-2 border-[#655ced] flex justify-center items-center">
+                                            <img src="https://images.unsplash.com/photo-1646541121625-e6675f5e88b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                                alt="" class="w-[100px] h-[130px] md:w-[250px] md:h-[280px] rounded-lg">
+                                        </div>
+                                        <div class="mt-4">
+                                            <h1 class="font-bold text-lg">Kathleen Moreno</h1>
+                                            <p class="text-[#7a7a7a]">Product Designer</p>
+                                            <p class="text-[#7a7a7a]">$1200 /Monthly</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide cursor-pointer">
+                                <div class="content-wrapper">
+                                    <div class="content">
+                                        <div
+                                            class="w-[130px] h-[150px] md:w-[280px] md:h-[300px] rounded-lg overflow-hidden border-2 border-[#655ced] flex justify-center items-center">
+                                            <img src="https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                                alt="" class="w-[100px] h-[130px] md:w-[250px] md:h-[280px] rounded-lg">
+                                        </div>
+                                        <div class="mt-4">
+                                            <h1 class="font-bold text-lg">Kathleen Moreno</h1>
+                                            <p class="text-[#7a7a7a]">Product Designer</p>
+                                            <p class="text-[#7a7a7a]">$1200 /Monthly</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- If we need pagination -->
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-nav-wrapper">
+                            <div class="swiper-pagination "></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="mt-32">
+            <div class="bg-[url('../src/img/bg.jpg')] bg-cover bg-no-repeat">
+                <div
+                    class="container mx-auto px-4 grid grid-cols-2 md:flex md:justify-between md:items-center md:h-[300px] js-scroll">
+                    <div class="text-center mt-7 md:mt-0">
+                        <h1 class="text-white text-3xl md:text-5xl count">150</h1>
+                        <!-- <div id="shiva"><span class="scroll-count count text-white text-3xl md:text-5xl">150</span>
+                        </div> -->
+                        <i class="fa-solid fa-minus text-white text-4xl"></i>
+                        <p class="text-white">Jobs Every Day</p>
+                    </div>
+                    <div class="text-center mt-7 md:mt-0">
+                        <h1 class="text-white text-3xl md:text-5xl count">40</h1>
+                        <!-- <div id="shiva"><span class="scroll-count text-white text-3xl md:text-5xl">80</span></div> -->
+                        <i class="fa-solid fa-minus text-white text-4xl"></i>
+                        <p class="text-white">Jobs Every Day</p>
+                    </div>
+                    <div class="text-center my-16 md:mt-0">
+                        <h1 class="text-white text-3xl md:text-5xl count">650</h1>
+                        <!-- <div id="shiva"><span class="scroll-count text-white text-3xl md:text-5xl">650</span></div> -->
+                        <i class="fa-solid fa-minus text-white text-4xl"></i>
+                        <p class="text-white">Jobs Every Day</p>
+                    </div>
+                    <div class="text-center my-16 md:mt-0">
+                        <h1 class="text-white text-3xl md:text-5xl count">841</h1>
+                        <!-- <div id="shiva"><span class="scroll-count text-white text-3xl md:text-5xl">841</span></div> -->
+                        <i class="fa-solid fa-minus text-white text-4xl"></i>
+                        <p class="text-white">Jobs Every Day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 mt-32">
+            <div class="md:flex md:justify-center md:items-center md:flex-row-reverse gap-x-32 my-6 js-scroll-down ">
+                <div class="md:text-left">
+                    <div class="flex flex-col items-center">
+                        <p class="text-center text-[#655ced] font-semibold text-base w-full md:text-left">KNOW YOUR
+                            ANSWER</p>
+                        <h1 class="text-center font-bold text-3xl my-3 md:text-5xl w-full md:text-left">FAQ</h1>
+                    </div>
+                    <div class="mt-14 md:mt-8 md:max-w-[459px] overflow-hidden whitespace-nowrap faq-wrapper">
+                        <div class="faq-main flex relative transition-all ">
+                            <div class="faq-item max-w-full">
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold label">How long is this site live?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p
+                                        class="text-sm text-[#838383] max-w-[90%] md:max-w-[400px] content overflow-hidden max-h-0 transition-all">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer active">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold label">How can i make my resume
+                                            through
+                                            this
+                                            website?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p
+                                        class="text-sm text-[#838383] whitespace-normal max-w-[90%]  md:max-w-[400px] content relative transition-all overflow-y-auto overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold">How can i find my dream job here?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p class="text-sm text-[#838383] max-w-[400px] content overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold md:mr-10">What you are providing extra
+                                            tha can help to
+                                            find a
+                                            job?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p class="text-sm text-[#838383] max-w-[400px] content overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold">How long it will take to get a permanent
+                                            job?
+                                        </h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p class="text-sm text-[#838383] max-w-[400px] content overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item max-w-full">
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold label">How long easy to make you?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p
+                                        class="text-sm text-[#838383] max-w-[90%] md:max-w-[400px] content overflow-hidden max-h-0 transition-all">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer active">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold label">How can your
+                                            first resume or using our website?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p
+                                        class="text-sm text-[#838383]  max-w-[90%] content relative transition-all overflow-y-auto overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold">How can is
+                                            super to make your?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p class="text-sm text-[#838383] max-w-[400px] content overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold md:mr-10">What you using our website
+                                            so fast
+                                            find a
+                                            job?</h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p class="text-sm text-[#838383] max-w-[400px] content overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                                <div class="mb-8 faq cursor-pointer">
+                                    <div class="md:flex md:items-center md:justify-between">
+                                        <h1 class="inline-block font-semibold">How long it will take to get a permanent
+                                            job?
+                                        </h1>
+                                        <i class="fa-solid fa-plus float-right text-[#655ced] cursor-pointer cong"></i>
+                                        <i
+                                            class="fa-solid fa-minus float-right text-[#655ced] cursor-pointer hidden tru"></i>
+                                    </div>
+                                    <p class="text-sm text-[#838383] max-w-[400px] content overflow-hidden max-h-0">
+                                        This
+                                        is
+                                        super easy to make your
+                                        first resume
+                                        or cv by
+                                        using our website
+                                        so fast and
+                                        safely.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" flex items-center float-right">
+                        <h1 class="font-semibold">Show others</h1>
+                        <div class="inline-block mx-4">
+                            <button
+                                class="w-[40px] h-[40px] rounded-full border-2 border-[#655ced] flex hover:bg-[#655ced] group faq-prev-btn">
+                                <i class="fa-solid fa-angle-left m-auto text-[#655ced] group-hover:text-white"></i>
+                            </button>
+                        </div>
+                        <p class="text-sm text-[#838383] number"></p>
+                        <div class="inline-block mx-4">
+                            <button
+                                class="w-[40px] h-[40px] rounded-full border-2 border-[#655ced] flex hover:bg-[#655ced] group faq-next-btn">
+                                <i class="fa-solid fa-angle-right m-auto text-[#655ced] group-hover:text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/hinh2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container mx-auto px-12 mt-32 mb-16">
+            <div
+                class="flex flex-col justify-center items-center gap-y-10 md:flex-row md:items-start md:justify-around md:gap-x-4">
+                <div
+                    class="flex flex-col justify-center items-center gap-y-6 md:col-span-1 md:items-start md:max-w-[300px]">
+                    <a href="index.html" class="font-extrabold text-4xl text-[#655ced] md:text-3xl">Findjob!</a>
+                    <p class="font-semibold text-sm text-center md:text-left">Findjob wonderful serenity has taken
+                        posesion of my
+                        entire soul,
+                        like these
+                        sweet mornings of
+                        spring which i enjoy width my whole heart</p>
+                    <div class="text-xl md:mt-24">
+                        <i class="fa-brands fa-facebook-f text-[#4073cf] cursor-pointer"></i>
+                        <i class="fa-brands fa-twitter text-[#1da1f3] mx-10 cursor-pointer"></i>
+                        <i class="fa-brands fa-linkedin-in text-[#0074af] mr-10 cursor-pointer"></i>
+                        <i class="fa-brands fa-google gg cursor-pointer"></i>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-y-3 md:items-start">
+                    <h1 class="text-[#655ced] font-bold text-xl">Categories </h1>
+                    <ul
+                        class="font-semibold text-sm text-center leading-loose md:text-base md:font-medium md:text-left md:mt-4">
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">IOS Developers
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Front-End
+                            Developers</li><br class="md:hidden">
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">UX Designers
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">UI Designer
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Restaurant
+                            Services</li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Health Care</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-y-3 md:items-start md:row-start-auto">
+                    <h1 class="text-[#655ced] font-bold text-xl">Communtity </h1>
+                    <ul
+                        class="font-semibold text-sm text-center leading-loose md:text-base md:font-semibold md:text-left md:mt-4">
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Events
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Blog
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Forum
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:mb-3 cursor-pointer hover:text-[#655ced]">Podcust</li><br>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Invite a friend
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block cursor-pointer hover:text-[#655ced]">Affiliates</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-y-3 md:items-start">
+                    <h1 class="text-[#655ced] font-bold text-xl">About</h1>
+                    <ul
+                        class="font-semibold text-sm text-center leading-loose md:text-base md:font-semibold md:text-left md:mt-4">
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">About Us
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Partnerships
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Finance Experts
+                        </li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Project Management
+                            <span>
+                                <i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i>
+                            </span>
+                        </li>
+                        <li class="inline-block md:mb-3 cursor-pointer hover:text-[#655ced]">Product Manager</li><br>
+                        <li class="inline-block">The Team</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-y-3 md:items-start">
+                    <h1 class="text-[#655ced] font-bold text-xl">Contact</h1>
+                    <ul
+                        class="font-semibold text-sm text-center leading-loose md:text-base md:font-semibold md:text-left md:mt-4">
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Contact Us<span><i
+                                    class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i></span></li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Press
+                            Center<span><i class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i></span></li>
+                        <li class="inline-block md:block md:mb-3 cursor-pointer hover:text-[#655ced]">Careers<span><i
+                                    class="fa-solid fa-circle text-[5px] mx-2 md:hidden"></i></span>
+                        </li>
+                        <li class="inline-block cursor-pointer hover:text-[#655ced]">Faq</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src=" ./app.js"></script>
+</body>
+
+</html>
