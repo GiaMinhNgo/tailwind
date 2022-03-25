@@ -55,37 +55,20 @@
     </header>
 
     <section>
-        <div class="container mx-auto md:grid md:grid-cols-2">
+        <div class="container mx-auto md:grid md:grid-cols-2 items-center">
             <div class="px-4 md:px-0 flex flex-col justify-center items-center md:block animation">
                 <h1
                     class="text-[54px] text-center font-semibold max-w-sm lg:text-[64px] mb-7 md:font-bold md:max-w-[470px] md:text-left">
-                    Find
-                    your dream
-                    jobs with us
-                    easily
+                    Contact
                 </h1>
-                <p class="mb-7 max-w-[464px] mx-14 text-center md:mx-0 md:mb-32 text-[#838383]">A better way to find and
-                    hire
-                    professional
-                    candidates
-                    for your
-                    job. Don't
-                    waste your
-                    time anywhere
-                    else and stop wearing your time.</p>
-                <div
-                    class="bg-[#655ced] h-14 flex items-center w-[375px] phone:w-[423px] text-white px-4 rounded-full md:w-[560px] md:h-[55px]">
-                    <i class="fa-solid fa-magnifying-glass mr-2 phone:pr-3 md:pr-5"></i>
-                    <input type="text"
-                        class="bg-transparent outline-0 max-w-[130px] placeholder:text-sm placeholder:text-white md:placeholder:text-lg md:max-w-[200px]"
-                        placeholder="Job title or Keyword">
-                    <span>|</span>
-                    <i class="fa-solid fa-location-dot px-1 md:px-3"></i>
-                    <input type="text"
-                        class="bg-transparent outline-0 max-w-[100px] phone:max-w-[110px] placeholder:text-sm placeholder:text-white md:placeholder:text-lg md:max-w-[200px]"
-                        placeholder="City or Zip code">
+                <p class="mb-7 max-w-[464px] mx-14 md:mx-0 md:mb-12 text-[#838383]">Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Velit consequuntur ducimus sequi blanditiis dicta nemo illo,
+                    libero reiciendis fugiat voluptatibus iusto quidem quod, voluptatum ipsa adipisci ipsum optio
+                    expedita ullam.</p>
+                <div>
                     <button
-                        class="bg-white text-[#655ced] p-3 px-4 md:px-6 rounded-full hover:bg-[#e9e8e8] hover:transition-colors ">Search</button>
+                        class="bg-[#4c3aee] text-white p-5 px-9 rounded-md font-semibold hover:opacity-80 hover:transition-colors">Learn
+                        more</button>
                 </div>
             </div>
             <div class="flex justify-center items-center mt-10 md:mt-0 md:justify-end md:items-start">
@@ -93,14 +76,9 @@
                     <div
                         class="bg-gradient-to-b from-[#6b6bf1] via-[#80b1f4] to-[#d4a6f1] absolute right-0 h-[387px] md:top-0 md:h-[900px] w-[37%] -z-40">
                     </div>
-                    <img src="https://images.unsplash.com/photo-1646185508554-44f57e273679?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80"
+                    <img src="https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80"
                         alt=""
-                        class="rounded-[50%] w-[300px] h-[300px] z-20 md:w-[350px] md:h-[350px] lg:w-[500px] lg:h-[500px] border-[40px] border-opacity-50 mt-10  animation">
-                    <!-- <div class="w-[70px] h-[70px] bg-slate-700 rounded-full align-middle table-cell text-center">
-                        <i class="fa-brands fa-figma"></i>
-                    </div>
-                    <i class="fa-brands fa-slack"></i>
-                    <i class="fa-brands fa-google"></i> -->
+                        class="rounded-md w-[300px] h-[300px] z-20 md:w-[350px] md:h-[350px] lg:w-[500px] lg:h-[600px] border-[4px] border-opacity-50 mt-10  animation">
                 </div>
             </div>
         </div>
@@ -135,7 +113,8 @@
         <div class="container mx-auto my-4 px-4">
             <p class="text-center text-[#655ced] font-semibold text-base">WHO WE ARE</p>
             <h1 class="text-center font-bold text-3xl mt-3 md:text-5xl">Contact</h1>
-            <form action="./contact.php" method="post" id="form-1" class="md:flex md:flex-col md:items-center mt-14">
+            <form action="./contact.php" method="post" id="form-1"
+                class="form md:flex md:flex-col md:items-center mt-14">
                 <div class="mb-3 md:w-[700px]">
                     <label for="exampleFormControlInput1"
                         class="form-label font-semibold inline-block mb-2 ">Name*</label>
@@ -145,14 +124,12 @@
                         m-0
                         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
                       " id="exampleFormControlInput1" placeholder="Ex: Minh" required id="name" name="name" />
-                    <span class="form-message"></span>
                 </div>
                 <div class="mb-3 md:w-[700px]">
                     <label for="exampleEmail0" class="form-label font-semibold inline-block mb-2 ">Email*</label>
                     <input type="email" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0
                         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-                      " id="exampleEmail0" placeholder="Ex: minh@gmail.com"
-                        pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" required id="email" name="email" />
+                      " id="exampleEmail0" placeholder="Ex: minh@gmail.com" required id="email" name="email" />
                     <span class="form-message"></span>
                 </div>
                 <div class="mb-3 md:w-[700px]">
@@ -198,8 +175,8 @@
                       " id="exampleFormControlTextarea1" rows="3" required placeholder="Your message" id="message"
                         name="message"></textarea>
                 </div>
-                <button type="submit"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">SEND</button>
+                <button type="submit" onclick="showSuccessToast();"
+                    class="text-white send bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">SEND</button>
             </form>
         </div>
         <div class="mt-32">

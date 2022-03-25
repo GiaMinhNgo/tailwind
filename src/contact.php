@@ -16,7 +16,8 @@ $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	echo "Contact Records Inserted";
+	// echo "Contact Records Inserted";
+	echo file_get_contents("/demo/src/contact.html");
 }
 
 ?>
